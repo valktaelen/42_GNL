@@ -8,7 +8,7 @@ Coder une fonction qui retourne la ligne suivante d'un fichier.
 char	*get_next_line(int fd);
 ```
 
-`get_next_line` prend en paramêtre un descripteur de fichier (fd) et renvoie
+[`get_next_line`](code/get_next_line.c) prend en paramêtre un descripteur de fichier (fd) et renvoie
 la ligne suivante ou `NULL` si la fin du fichier est atteinte.
 
 `dir_gnl` est le dossier où se trouve get_next_line.
@@ -39,7 +39,7 @@ int main()
 
 ## Bonus
 
-La version bonus permet de gerer plusieurs fichier
+La [version bonus](code/get_next_line_bonus.c) permet de gerer plusieurs fichier
 
 - Exemple de main get_next_line (version bonus)
 ```c
